@@ -1,5 +1,5 @@
 ### Loops
-Read an integer N, for all non-negative integers i <N, print i**2. 
+Read an integer ![](https://latex.codecogs.com/gif.latex?N), for all non-negative integers ![](https://latex.codecogs.com/gif.latex?i%3C%20N), print ![](https://latex.codecogs.com/gif.latex?i%5E%7B2%7D) . 
 ### Solution
 ```ruby
 n = int(input())
