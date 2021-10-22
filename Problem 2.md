@@ -5,7 +5,7 @@ Read two integers and:
 2. The second line contains the difference of the two numbers (first - second).
 3. The third line contains the product of the two numbers.
 ### Solution
-```
+```ruby
 a = int(input())
 b = int(input())
 print(a+b)
