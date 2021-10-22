@@ -12,15 +12,21 @@ Given a year, determine whether it is a leap year. If it is a leap year, return 
 
 ```ruby
 def is_leap(year):
-    leap = False
-    if year %4 ==0:
-        leap=True
+    if year %400 == 0:
+        return True
     if year %100==0:
-        leap=False
-    if year %400==0:
-        leap= True
-    return leap
+        return False
+    if year %4==0:
+        return True
+    else:
+        return False
 
 year = int(input())
 is_leap(year)
+```
+or another way
+
+```ruby
+def is_leap(year):
+    return year % 4 == 0 and (year % 400 == 0 or year % 100 != 0)
 ```
