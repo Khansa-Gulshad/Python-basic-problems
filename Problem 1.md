@@ -7,7 +7,7 @@ Given an integer, n , perform the following conditional actions:
 4. If n is even and greater than , print Not Weird
 
 ### Solution
-```
+```ruby
 n = int(input())
 if n % 2 != 0:
     print("Weird")
