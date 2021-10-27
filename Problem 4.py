@@ -1,5 +1,5 @@
 #Loops
-#Read an integer N, for all non-negative integers i<N, print 1^2. 
+#Read an integer N, for all non-negative integers i<N, print i**2. 
 #Solution
 
 n = int(input())
